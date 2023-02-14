@@ -1,0 +1,211 @@
+header{
+    height: 80px;
+}
+
+footer{
+    height: 100px;
+}
+
+body{
+    background-image: url(img/13a391694a4b1f3a823de6e296d74d70_t.jpeg) ;
+    border-image-width: 100%;
+    
+}
+
+/*---ホーム画面---*/
+/* タイトル　*/
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.title h1{
+    font-size: 160px;
+    font-family: "Ravi Prakash", cursive;
+    /* border-bottom: solid; */
+}
+
+/*　スタートボタン　*/
+.start{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 3vh;
+    border: 13px outset rgb(100, 100, 100);
+    border-color: rgb(100, 100, 100);
+    background: rgb(100, 100, 100);
+}
+
+.start:hover{
+    background: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    border-radius: 20px;
+    border-color: rgb(255, 0, 0);
+    box-shadow: 0 15px 20px black;
+    transform: translate(0, -5px);
+} 
+
+.start a{
+    font-size: 60px;
+    color: black;
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration-line: none;
+}
+
+/* レベル選択　*/
+.level{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.level h2{
+    font-size: 50px;
+    font-family: "M PLUS Rounded 1c"; 
+}
+
+.level ul{
+    display: flex;
+    justify-content:space-between;  
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.level a{
+    display: block;
+	text-align: center;
+	/* vertical-align: middle; */
+	text-decoration: none;
+	position: relative;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+    font-size: 40px;
+    font-family: 'Chakra Petch', sans-serif;
+	border-radius: 10px;
+	color: #000000;
+    background-color: rgb(251, 255, 0);
+	border: 3px solid rgb(251, 255, 0);
+	box-shadow: 10px 5px rgb(110, 112, 0);
+	transition: 0.3s ease-in-out;
+}
+
+.level a:hover{
+    box-shadow: none;
+	transform: translate(5px, 5px);
+	color: #000000;
+    background-color: rgb(255, 0, 0);
+	border: 3px solid rgb(255, 0, 0);
+	box-shadow: 2px 2px rgb(109, 0, 0);
+}
+
+/*---ゲーム画面---*/
+.game header{
+    height: 80px;
+    border-top: dashed;
+    border-bottom: dashed;
+    margin-bottom: 40px;
+}
+
+
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    display: flex;
+
+}
+
+.screen p{
+    top: 100px;
+    width: 800px;
+    height: 800px;
+    margin-right: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px black;
+    transform: translate(0, -5px);
+}
+
+.score{
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    box-shadow: 0 5px 10px black;
+    transform: translate(0, -5px);
+}
+
+.score h2{
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    font-size: 40px;
+    border-bottom: solid;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.score p{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    font-size: 100px;
+}
+
+.a{
+    margin-top: 50px;
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    box-shadow: 0 5px 10px black;
+    transform: translate(0, -5px);
+}
+
+.a h2{
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    font-size: 40px;
+    border-bottom: solid;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.a p{
+    /* margin: 0;
+    padding: 0; */
+    height: 60px;
+    font-size: 50px;
+}
+
+.b{
+    margin-top: 50px;
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    box-shadow: 0 5px 10px black;
+    transform: translate(0, -5px);
+}
+
+.b h2{
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    font-size: 40px;
+    border-bottom: solid;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.b p{
+    /* margin: 0;
+    padding: 0; */
+    height: 60px;
+    font-size: 50px;
+}
+
