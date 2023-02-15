@@ -19,7 +19,7 @@ for(let i=0;i < enemyNum;i++){
         var eImg=document.createElement("img");
     eImg.class="enemy";
     eImg.id=i;
-    eImg.src="/img/circle.png";
+    eImg.src="/img/enemy.jpg";
 
     enemyArea.appendChild(eImg);
     eImg.style.cssText='position: absolute; top: '+enemy[i].eY+'px; left: '+enemy[i].eX+'px; ';
