@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+    width: 100%;
+    
+}
+body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#screen{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+
+.player {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
