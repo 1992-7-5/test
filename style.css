@@ -153,12 +153,14 @@ body{
 
 }
 
-.screen p{
+.screen {
+    position: relative;
+    overflow: hidden;
     top: 100px;
     width: 800px;
     height: 800px;
     margin-right: 200px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 20px 35px rgb(34, 18, 18);
     transform: translate(0, -5px);
 }
