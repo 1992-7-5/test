@@ -54,6 +54,7 @@ body{
 
 /*　スタートボタン　*/
 .start{
+    text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -156,7 +157,7 @@ body{
 .screen {
     position: relative;
     overflow: hidden;
-    top: 100px;
+    /* top: 100px; */
     width: 800px;
     height: 800px;
     margin-right: 200px;
